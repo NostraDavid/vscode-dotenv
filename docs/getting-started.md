@@ -2,7 +2,7 @@
 
 ## Use the extension
 
-1. Download the VSIX from [the releases page](https://github.com/NostraDavid/dotenv/releases).
+1. Download the latest VSIX from [the latest release](https://github.com/NostraDavid/vscode-dotenv/releases/latest).
 2. Open VS Code and select the Extensions view.
 3. Open the three-dot menu, select **Install from VSIX**, and select the downloaded file.
 4. Disable the original DotENV extension and open a `.env` file. The language shown in the status bar should be Environment Variables.

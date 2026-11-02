@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+- Update repository links and direct users to the latest VSIX release.
+- Remove the inherited extension icon from the manifest and repository.
+
 ## [1.0.4] - 2026-10-25
 
 ### Changed

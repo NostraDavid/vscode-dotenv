@@ -64,7 +64,7 @@ flake-check:
 
 [group('quality')]
 audit-all:
-    npm audit --audit-level=moderate
+    node scripts/audit.mts
 
 [group('quality')]
 pre-commit:

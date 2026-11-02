@@ -35,7 +35,6 @@
 !/language-configuration.json
 !/tsconfig.json
 !/webpack.config.js
-!/icon.png
 
 node_modules/
 dist/

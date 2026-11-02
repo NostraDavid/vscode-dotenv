@@ -19,7 +19,7 @@ The original grammar is from [`mikestead.dotenv` v1.0.1 at `ad506a6`](https://gi
 
 ## Install
 
-Download `nostradavid-dotenv-1.0.0.vsix` from [GitHub Releases](https://github.com/NostraDavid/dotenv/releases). In VS Code, open Extensions, choose **Install from VSIX**, and select that file.
+Download the latest `nostradavid-dotenv` VSIX from [GitHub Releases](https://github.com/NostraDavid/vscode-dotenv/releases/latest). In VS Code, open Extensions, choose **Install from VSIX**, and select that file.
 
 Disable `mikestead.dotenv` before enabling this fork, since both register the `dotenv` language. Existing `[dotenv]` settings continue to work.
 
