@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+- Reuse compatible development tools from PATH and fall back to the locked Nix packages.
+
 - Update repository links and direct users to the latest VSIX release.
 - Remove the inherited extension icon from the manifest and repository.
 

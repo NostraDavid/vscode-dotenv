@@ -23,19 +23,26 @@
         in
         {
           default = pkgs.mkShellNoCC {
-            packages = with pkgs; [
-              git
-              just
-              nodejs_24
-              dprint
-              oxlint
-              prek
-              nixfmt
-              statix
-              deadnix
-              actionlint
-              shellcheck
-            ];
+            shellHook =
+              import
+                (builtins.fetchurl {
+                  url = "https://raw.githubusercontent.com/NostraDavid/nixcfg/cb2423e55f4a7ee010d33a649ddf0488338baa42/nix/system-tools.nix";
+                  sha256 = "7d2abe646d9389e296c5e1cafa0b63dd52e9821c58037d9dd8faef90124104e2";
+                })
+                pkgs
+                [
+                  "git"
+                  "just"
+                  "nodejs_24"
+                  "dprint"
+                  "oxlint"
+                  "prek"
+                  "nixfmt"
+                  "statix"
+                  "deadnix"
+                  "actionlint"
+                  "shellcheck"
+                ];
           };
         }
       );
